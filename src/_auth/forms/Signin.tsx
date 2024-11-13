@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast"
 import Loader from "@/components/shared/Loader"
 import { Link } from "react-router-dom"
 
-import logo from '../../../public/assets/images/logo.svg'
+// import logo from '../../../public/assets/images/logo.svg'
 
 const Signin = () => {
   const isLoading = false
@@ -36,7 +36,7 @@ const Signin = () => {
     <div>
       <Form {...form}>
         <div className="sm:w-420 center flex-col">
-          <img src={logo} alt="Logo" />
+          <img src='/assets/images/logo.svg' alt="Logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-6 text-white">Login to your account</h2>
           <p className="text-light-3 small-medium md:base-regular mt-2">Welcome back! Please enter your details</p>

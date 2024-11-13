@@ -8,7 +8,6 @@ import { z } from "zod"
 import { useToast } from "@/hooks/use-toast"
 import { Link } from "react-router-dom"
 
-import logo from '../../../public/assets/images/logo.svg'
 import Loader from "@/components/shared/Loader"
 
 const Signup = () => {
@@ -39,7 +38,7 @@ function onSubmit() {
     <div>
       <Form {...form}>
         <div className="sm:w-420 center flex-col">
-          <img src={logo} alt="Logo" />
+          <img src='/assets/images/logo.svg' alt="Logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-6 text-white">Create a new account</h2>
           <p className="text-light-3 small-medium md:base-regular mt-2">To use linux social, please enter your account details</p>
